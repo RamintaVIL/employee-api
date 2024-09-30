@@ -1,0 +1,21 @@
+{
+  "name": "employee-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "jest",
+      "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "pg": "^8.13.0",
+    "supertest": "^7.0.0"
+  }
+}
